@@ -6,6 +6,10 @@
 #include "local.h"
 #include "socks5.h"
 
+#include <fcntl.h>
+#include <errno.h>
+
+
 #define ADDR_STR_LEN 512
 
 #define SAVED_STR_LEN 512
